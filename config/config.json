@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "arf-dashboard-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/arfDashboard/ArfDashboardWebPart.js",
+          "manifest": "./src/webparts/arfDashboard/ArfDashboardWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "ArfDashboardWebPartStrings": "lib/webparts/arfDashboard/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js"
+  }
+}

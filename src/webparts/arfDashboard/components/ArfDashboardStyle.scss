@@ -1,0 +1,343 @@
+.ARFDashboard_OrderKey_Maindiv1 {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  border: 1px solid grey;
+  padding-bottom: 50px;
+}
+
+#ARFDashboard_MainDiv {
+  background-color: white;
+  margin-top: 40px;
+  padding: 0px 20px 60px 20px;
+}
+
+.ARFDashboard_Head {
+  text-align: center;
+  font-size: 35px;
+  padding-top: 13px;
+}
+
+.ARFDashboard_button_main {
+  width: 233px;
+}
+
+.ARFDashboard_show_Button {
+  border-radius: 2px;
+  width: 95px;
+  background-color: #bb4107;
+  color: white;
+  margin-bottom: 7px;
+  height: 30px;
+  float: right;
+  border: none;
+  cursor: pointer;
+  //   margin-right: 17px;
+  float: right;
+}
+
+.ARFDashboard_Add_Button {
+  border-radius: 2px;
+  width: 95px;
+  background-color: #bb4107;
+  color: white;
+  margin-bottom: 7px;
+  height: 30px;
+  // float: right;
+  border: none;
+  cursor: pointer;
+  margin-right: 10px;
+  float: right;
+}
+
+.ARFDashboard_Select_Button {
+  border-radius: 2px;
+  // width: 10%;
+  background-color: #bb4107;
+  color: #fff;
+  margin-bottom: 7px;
+  height: 30px;
+  border: none;
+  cursor: pointer;
+  //float: right;
+  padding: 0px 10px 0px 10px;
+  margin-top: 11px;
+  margin-left: 20px;
+  display: inline-block;
+
+}
+
+
+.ARFDashboard_Add_Button1 {
+  border-radius: 2px;
+  width: 85px;
+  background-color: #bb4107;
+  color: white;
+  margin-top: 16px;
+  height: 30px;
+  float: right;
+  border: none;
+  cursor: pointer;
+}
+
+.ARFDashboard_Input_Button {
+  width: 100%;
+  text-align: left;
+  display: flex;
+}
+
+.ARFDashboard_Input_Button_create {
+  width: 100%;
+  // text-align: left;
+
+}
+
+.ARFDashboard_Input_Button_edit {
+  width: 100%;
+  text-align: left;
+
+}
+
+.ARFDashboard_Add_Button2 {
+  background-color: #bb4107;
+  color: white;
+  border-radius: 2px;
+  width: 100px;
+  height: 30px;
+  border: none;
+  margin: 4px 4px 4px 17px;
+  cursor: pointer;
+}
+
+.ARFDashboard_Add_Button3 {
+  background-color: #bb4107;
+  border-radius: 2px;
+  color: #fff;
+  width: 100px;
+  height: 30px;
+  border: none;
+  margin: 4px 4px 4px 17px;
+  cursor: pointer;
+}
+
+.ARFDashboard_Table_tr {
+  font-size: 17px;
+}
+
+.ARFDashboard_Table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.ARFDashboard_Table_th {
+  width: 86%;
+  background-color: #0b0b3a;
+}
+
+.ARFDashboard_Table_span {
+  font-size: 20px;
+  color: white;
+}
+
+.ARFDashboard_Table_th_1 {
+  font-size: 20px;
+  background-color: #0b0b3a;
+  color: white;
+  border: 1px solid black;
+}
+
+.ARFDashboard_Table_td,
+.ARFDashboard_Table,
+.ARFDashboard_Table_th {
+  border: 1px solid;
+}
+
+.ARFDashboard_header {
+  font-size: 25px;
+  text-align: center;
+}
+
+.ARFDashboard_Head {
+  text-align: center;
+  font-size: 35px;
+}
+
+.ARFDashboard_label1 {
+  font-size: 25px;
+  // text-align: left;
+}
+
+
+.ARFDashboard_text1 {
+  margin-top: 11px;
+  width: 100%;
+  // height: 23px;
+  float: right;
+  border: 1px solid rgba(0, 0, 0, .6509803921568628);
+  // margin-top:11px;
+  // width: 92%;
+  height: 70px;
+  resize: none;
+}
+
+.ARFDashboard_text1_Edit {
+  margin-top: 11px;
+  width: 99%;
+  height: 23px;
+  border: 1px solid rgba(0, 0, 0, .6509803921568628);
+}
+
+.ARFDashboard_text1_Create {
+  margin-top: 11px;
+  width: 99%;
+  height: 23px;
+  border: 1px solid rgba(0, 0, 0, .6509803921568628);
+ 
+}
+
+input[type=textarea] {
+  // width: 100%;
+  // -webkit-transition: width 0.4s ease-in-out;
+  // transition: width 0.4s ease-in-out;
+  // border-radius: 5px;
+  // height: 70px;
+  // margin-left: 20px;
+  // border: none;
+  // width: 150px;
+  // -webkit-transition: width 0.4s ease-in-out;
+  // transition: width 0.4s ease-in-out;
+  width: 100%;
+height: 150px;
+padding: 12px 20px;
+box-sizing: border-box;
+border: 2px solid #ccc;
+border-radius: 4px;
+background-color: #f8f8f8;
+font-size: 16px;
+resize: none;
+}
+
+
+.ARFDashboard_modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: #474e5d;
+  padding-top: 250px;
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
+}
+
+.ARFDashboard_modal_Edit {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 2;
+  /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: #474e5d;
+  padding-top: 250px;
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.ARFDashboard_modal-content {
+  background-color: #fff;
+  height: auto;
+  margin: 5% auto 15%;
+  border: 1px solid #888;
+  width: 80%;
+  padding: 0px 40px 40px 40px;
+}
+
+.ARFDashboard_modal-content_ADD {
+  background-color: #fff;
+  height: auto;
+  margin: 5% auto 15%;
+  border: 1px solid #888;
+  width: 40%;
+  padding: 20px 30px 120px 30px;
+}
+
+.ARFDashboard_close {
+  float: right;
+  font-size: 40px;
+  font-weight: bold;
+  color: #3e3737;
+  //   margin-right: 16px;
+}
+
+.ARFDashboard_close:hover,
+.ARFDashboard_close:focus {
+  color: #f44336;
+  cursor: pointer;
+}
+
+
+
+.ARFDashboard_button_main {
+  width: 255px;
+}
+
+.ARFDashboard_Add_Button_save_update {
+  border-radius: 2px;
+  width: 95px;
+  background-color: #bb4107;
+  color: white;
+  margin-bottom: 7px;
+  height: 30px;
+  float: right;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.ARFDashboard_label_div {
+  text-align: left;
+  font-size: 25px;
+}
+
+.ARFDashboard_ul {
+  list-style: decimal;
+}
+
+.ARFDashboard_Data {
+  text-align: center;
+  margin-top: 30px;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+// @media screen and (max-width: 820px) {
+//   .ARFDashboard_Select_Button{
+//      width: 150px;
+// }
+// }
+//   ARFDashboard_Select_Button_options {
+//     display: inline-block;
+// }
+.ARFDashboard_Select_Button_peoplepicker {
+  margin-top: 9px;
+  margin-left: 15px;
+  border-radius: 2px;
+}
